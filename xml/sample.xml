@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sample Suite">
+	<test name="Sample Test">
+		<parameter name="myParam" value="@@PLACEHOLDER@@"/>
+		<classes>
+			<class name="com.demo.mavenreplacer.test.AppTest" />
+		</classes>
+	</test>
+</suite>
